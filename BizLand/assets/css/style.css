@@ -309,9 +309,10 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 .navbar a i, .navbar a:focus i {
-  font-size: 12px;
+  font-size: 20px;
   line-height: 0;
   margin-left: 5px;
+  margin-right: 5px;
 }
 .navbar > ul > li > a:before {
   content: "";
@@ -602,7 +603,7 @@ section {
   padding-bottom: 30px;
 }
 .section-title h2 {
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 1px;
   font-weight: 700;
   padding: 8px 20px;
@@ -617,10 +618,9 @@ section {
   margin: 15px 0 0 0;
   font-size: 32px;
   font-weight: 700;
-}
-.section-title h3 span {
   color: #106eea;
 }
+
 .section-title p {
   margin: 15px auto 0 auto;
   font-weight: 600;
@@ -775,38 +775,6 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Skills
---------------------------------------------------------------*/
-.skills .progress {
-  height: 60px;
-  display: block;
-  background: none;
-  border-radius: 0;
-}
-.skills .progress .skill {
-  padding: 0;
-  margin: 0 0 6px 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #222222;
-}
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-}
-.skills .progress-bar-wrap {
-  background: #e2eefd;
-  height: 10px;
-}
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: #106eea;
-}
 
 /*--------------------------------------------------------------
 # Counts
@@ -851,27 +819,7 @@ section {
   font-size: 14px;
 }
 
-/*--------------------------------------------------------------
-# Clients
---------------------------------------------------------------*/
-.clients {
-  padding: 15px 0;
-  text-align: center;
-}
-.clients img {
-  max-width: 45%;
-  transition: all 0.4s ease-in-out;
-  display: inline-block;
-  padding: 15px 0;
-}
-.clients img:hover {
-  transform: scale(1.15);
-}
-@media (max-width: 768px) {
-  .clients img {
-    max-width: 40%;
-  }
-}
+
 
 /*--------------------------------------------------------------
 # Services
