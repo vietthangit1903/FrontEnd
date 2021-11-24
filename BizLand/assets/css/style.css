@@ -631,6 +631,23 @@ section {
   }
 }
 
+
+.product_container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-item{
+  display: inline-block;
+}
+
+.product_sidebar{
+  position: relative;
+}
+
+
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
